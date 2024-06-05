@@ -1,0 +1,108 @@
+body {
+    background-image: url(/image/blog\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+.btn-lg:hover{
+    transform: rotate(5deg);
+}
+
+.text-editor {
+    font-family: 'lobster';
+}
+
+.global {
+    margin-top: -51px;
+    margin-bottom: 200px;
+}
+
+.Learn {
+    color: white;
+    background-color: #6313d4;
+    margin-top: 50px;
+    font-family: 'lobster';
+}
+
+.join {
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.discovery {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding-bottom: 55px;
+}
+
+.social {
+    gap: 20px;
+    display: inline-flex;
+}
+ 
+a {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+a:hover{
+    padding: 2px;
+}
+
+.Follow{
+    font-weight: 600;
+    font-family: 'poppins';
+    padding-bottom: 2px;
+}
+
+@media (max-width: 768px) {
+    .cover-container {
+        padding: 64px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .cover-container {
+        padding: 64px 362px;
+        gap: 53px;
+    }
+}
+
+.nav-bar .nav-link {
+    color: gray;
+    font-weight: 700;
+    font-family: 'lato';
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-bar .nav-link:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+
+}
+
+.nav-masthead .nav-link:hover {
+    border-bottom-color: rgba(255, 255, 255, .5);
+    padding: 2px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
