@@ -1,0 +1,41 @@
+.body {
+    background-color: whitesmoke;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    height: 100%;
+}
+
+.form-sign-in {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 50px auto 50px auto;
+}
+
+.sign-form {
+    position: relative;
+}
+
+
+.form-control {
+    margin-bottom: -1px;
+    border: solid;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
