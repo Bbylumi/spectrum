@@ -20,14 +20,15 @@ body {
 
 .global {
     margin-top: -51px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .Learn {
     color: white;
     background-color: #6313d4;
     margin-top: 50px;
-    font-family: 'lobster';
+    font-family: 'poppins';
+    font-weight: 600;
 }
 
 .join {
