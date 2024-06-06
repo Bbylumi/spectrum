@@ -50,10 +50,11 @@ body {
 a {
     color: #f8f9fa;
     text-decoration: underline;
+    transition: transform .3s ease-in-out
 }
 
 a:hover{
-    padding: 2px;
+     transform: scale(1.5);
 }
 
 .Follow{
@@ -103,7 +104,6 @@ a:hover{
 }
 
 .nav-masthead .nav-link:hover {
-    border-bottom-color: rgba(255, 255, 255, .5);
-    padding: 2px;
+    border-bottom-color: rgba(255, 255, 255, .5); 
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
